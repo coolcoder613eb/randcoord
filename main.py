@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from random import choice
 
-lets = 'ABCDEF'
+lets = '123456'
 nums = '123456'
 
 w = tk.Tk()
@@ -27,7 +27,7 @@ rand_lab_st.configure('b.TLabel', font='Calibri 280', background='#ffffff', reli
 rand_frame = tk.Frame(w, background='#ffffff')
 rand_frame.grid(row=0, column=0, padx=30, pady=30)
 
-rand_let = ttk.Label(rand_frame, text='A', style='b.TLabel')
+rand_let = ttk.Label(rand_frame, text='1', style='b.TLabel')
 rand_let.grid(row=0, column=0, pady=20, padx=20)
 
 rand_num = ttk.Label(rand_frame, text='1', style='b.TLabel')
